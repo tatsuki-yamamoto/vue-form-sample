@@ -1,4 +1,4 @@
-# vue-sample
+# vue-form-sample
 
 ## Project setup
 ```
