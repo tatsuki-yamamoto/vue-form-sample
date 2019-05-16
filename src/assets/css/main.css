@@ -1,0 +1,85 @@
+body {
+  background-color: #f0f8ff;
+}
+
+header {
+  background-color: #aeddff;
+}
+
+#content,
+#header {
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.form-area {
+  padding: 20px;
+  background-color: #ffffff;
+  box-shadow: 2px 2px 4px grey;
+}
+
+.row {
+  margin-bottom: 1em;
+}
+
+.status {
+  font-size: 100% !important;
+}
+
+.has-error {
+  background: #fdd;
+  border-color: #a94442;
+}
+
+@media (min-width: 768px) {
+  #main_area input,
+  #main_area select {
+    max-width: 100%;
+  }
+
+  #familyName {
+    width: 200px;
+  }
+
+  #givenName {
+    width: 200px;
+  }
+
+  #tel {
+    width: 250px;
+  }
+
+  #postalCode {
+    width: 150px;
+  }
+
+  #addressLevel1,
+  #addressLevel2,
+  #addressLine1 {
+    width: 300px;
+  }
+
+  #addressLine2 {
+    width: 400px;
+  }
+
+  #email {
+    width: 350px;
+  }
+
+  #emailComfirm {
+    width: 350px;
+  }
+
+  #birthYear {
+    width: 80px;
+  }
+
+  #birthMonth {
+    width: 65px;
+  }
+
+  #birthDay {
+    width: 65px;
+  }
+}

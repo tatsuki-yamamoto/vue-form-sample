@@ -1,0 +1,24 @@
+<div>
+  <h2>完了画面</h2>
+  <p>入力画面 ＞ 確認画面 ＞ <span class="label label-danger status">完了画面</span></p>
+
+  <div class="form-area">
+      <div class="row">
+        <div class="col-xs-12">
+          <p>申込が完了しました</p>
+        </div>
+      </div>
+      <div class="row">
+        <label class="col-sm-3 control-label">受付番号：</label>
+        <div class="col-sm-9">
+          <span>{{data.appNo}}</span>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-xs-12 col-sm-offset-3 col-sm-9">
+          <button type="button" class="btn btn-default" @click="goFirstPage">最初に戻る</button>
+        </div>
+      </div>
+    </ul>
+  </div>
+</div>

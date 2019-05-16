@@ -1,0 +1,67 @@
+<div>
+  <h2>確認画面</h2>
+  <p
+    >入力画面 ＞ <span class="label label-danger status">確認画面</span> ＞
+    完了画面</p
+  >
+  <div class="form-area">
+    <div class="row">
+      <label class="col-sm-3 control-label">お名前：</label>
+      <div class="col-sm-9">
+        <span>{{ data.familyName }}</span> <span>{{ data.givenName }}</span>
+      </div>
+    </div>
+    <div class="row">
+      <label class="col-sm-3 control-label">電話番号：</label>
+      <div class="col-sm-9">
+        <span>{{ data.tel }}</span>
+      </div>
+    </div>
+    <div class="row">
+      <label class="col-sm-3 control-label">性別：</label>
+      <div class="col-sm-9">
+        <span>{{ dataName.gender }}</span>
+      </div>
+    </div>
+    <div class="row">
+      <label class="col-sm-3 control-label">生年月日：</label>
+      <div class="col-sm-9">
+        <span>{{ data.birthYear }}</span
+        >年<span>{{ data.birthMonth }}</span
+        >月<span>{{ data.birthDay }}</span
+        >日
+      </div>
+    </div>
+    <div class="row">
+      <label class="col-sm-3 control-label">郵便番号：</label>
+      <div class="col-sm-9">
+        <span>{{ data.postalCode }}</span>
+      </div>
+    </div>
+    <div class="row">
+      <label class="col-sm-3 control-label">ご自宅住所：</label>
+      <div class="col-sm-9">
+        <span>{{ data.addressLevel1 }}</span
+        ><span>{{ data.addressLevel2 }}</span
+        ><span>{{ data.addressLine1 }}</span
+        ><span>{{ data.addressLine2 }}</span>
+      </div>
+    </div>
+    <div class="row">
+      <label class="col-sm-3 control-label">メールアドレス：</label>
+      <div class="col-sm-9">
+        <span>{{ data.email }}</span>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-xs-12 col-sm-offset-3 col-sm-9">
+        <button type="button" class="btn btn-default" @click="goBack"
+          >前へ戻る</button
+        >
+        <button type="button" class="btn btn-primary" @click="goNext"
+          >次へ進む</button
+        >
+      </div>
+    </div>
+  </div>
+</div>
